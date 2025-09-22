@@ -24,7 +24,7 @@ export class WeatherService {
       throw new Error('OpenWeatherMap API key is required. Please add VITE_OPENWEATHER_API_KEY to your environment variables.');
     }
     if (this.apiKey === 'demo_key') {
-      throw new Error('Please replace "your_api_key_here" in the .env file with your actual OpenWeatherMap API key. Get one free at https://openweathermap.org/api');
+      throw new Error('Please replace "ca46ab50a4e771db4d81b6acf9da1a74" in the .env file with your actual OpenWeatherMap A');
     }
   }
 
