@@ -1,0 +1,37 @@
+/* Forecast Card Specific Styles */
+.forecast-card {
+  @apply bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-xl border border-white/20;
+}
+
+.forecast-item {
+  @apply flex items-center justify-between py-3 border-b border-white/10 last:border-b-0;
+  transition: background-color 0.2s ease;
+}
+
+.forecast-item:hover {
+  @apply bg-white/5 rounded-lg px-2;
+}
+
+.forecast-date {
+  @apply w-16 text-white/80 text-sm font-medium;
+}
+
+.forecast-weather-info {
+  @apply flex items-center ml-4;
+}
+
+.forecast-description {
+  @apply ml-2 text-white/80 text-sm capitalize;
+}
+
+.forecast-temperatures {
+  @apply flex items-center gap-2;
+}
+
+.forecast-temp-high {
+  @apply text-white font-semibold;
+}
+
+.forecast-temp-low {
+  @apply text-white/60;
+}

@@ -1,0 +1,73 @@
+/* Responsive Utilities */
+
+/* Mobile First Approach */
+.container-mobile {
+  @apply px-4 mx-auto;
+}
+
+.grid-mobile {
+  @apply grid grid-cols-1 gap-4;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .container-tablet {
+    @apply px-6 max-w-4xl;
+  }
+  
+  .grid-tablet {
+    @apply grid-cols-2 gap-6;
+  }
+  
+  .text-tablet {
+    @apply text-lg;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .container-desktop {
+    @apply px-8 max-w-6xl;
+  }
+  
+  .grid-desktop {
+    @apply grid-cols-3 gap-8;
+  }
+  
+  .text-desktop {
+    @apply text-xl;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1280px) {
+  .container-xl {
+    @apply max-w-7xl;
+  }
+}
+
+/* Mobile-specific utilities */
+@media (max-width: 767px) {
+  .mobile-stack {
+    @apply flex flex-col space-y-4;
+  }
+  
+  .mobile-full-width {
+    @apply w-full;
+  }
+  
+  .mobile-text-center {
+    @apply text-center;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+}
