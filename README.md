@@ -27,3 +27,22 @@ A simple and responsive **Weather App** built with **React + Vite** that fetches
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
+
+2. Install dependencies
+npm install
+
+3. Create .env file
+
+Inside the project root, create a .env file and add your API key:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+
+
+⚠️ Never commit your API key to GitHub. Always use .env.
+
+4. Run the app
+npm run dev
+
+
+Open http://localhost:5173
+ in your browser.
