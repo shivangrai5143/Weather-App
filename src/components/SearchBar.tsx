@@ -81,14 +81,14 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search for a city..."
+          placeholder="Search for a city...."
           className="w-full pl-10 pr-12 py-3 bg-white/20 backdrop-blur-md border border-white/30 rounded-xl text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-200"
         />
         <button
           onClick={onCurrentLocation}
           disabled={isLoading}
           className="absolute inset-y-0 right-0 pr-3 flex items-center text-white/70 hover:text-white transition-colors duration-200 disabled:opacity-50"
-          title="Use current location"
+          title="Use current location here"
         >
           <MapPin className="w-5 h-5" />
         </button>
