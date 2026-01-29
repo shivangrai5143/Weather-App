@@ -151,23 +151,6 @@ function App() {
             </div>
           </div>
         ) : null}
-
-        {/* Footer */}
-        <div className="mt-12 text-center text-white/60 text-sm">
-          <p>Weather data provided by OpenWeatherMap</p>
-          <p className="mt-2">
-            To use this app, you'll need to get a free API key from{' '}
-            <a 
-              href="https://openweathermap.org/api" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-white/80 hover:text-white underline"
-            >
-              OpenWeatherMap
-            </a>
-            {' '}and replace the API key in the WeatherService file.
-          </p>
-        </div>
       </div>
     </div>
   );
