@@ -20,7 +20,7 @@ A simple and responsive **Weather App** built with **React + Vite** that fetches
 - [Tailwind CSS] (optional, if you used it) – Styling  
 
 ---
-
+fghjhgfdfghgf
 ## 📂 Project Setup
 
 ### 1. Clone the repo
